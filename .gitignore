@@ -39,3 +39,7 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# Clés Supabase débranchées (renommer en .env.local pour reconnecter)
+.env*.off
+supabase/.temp/
